@@ -1,0 +1,122 @@
+"Resource/UI/TargetID.res"
+{
+	"TargetIDBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TargetIDBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/color_panel_blue"
+		"scaleImage"		"1"
+		"teambg_1"			"replay/thumbnails/color_panel_neu"
+		"teambg_2"			"replay/thumbnails/color_panel_red"
+		"teambg_3"			"replay/thumbnails/color_panel_blue"
+		"alpha"				"255"
+		"src_corner_height"		"22"
+		"src_corner_width"		"22"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/color_panel_blue"
+		
+		"src_corner_height"		"22"				// pixels inside the image
+		"src_corner_width"		"22"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/color_panel_red"
+		
+		"src_corner_height"		"22"				// pixels inside the image
+		"src_corner_width"		"22"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	"TargetNameLabel"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabel"
+		"font"			"Jost12Shadow"
+		"xpos"			"40"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"640"
+		"tall"			"12"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor_override" "255 255 255 255"
+	}
+	"TargetDataLabel"
+	{	
+		"ControlName"		"Label"
+		"fieldName"			"TargetDataLabel"
+		"font"				"Jost10Shadow"
+		"xpos"				"41"
+		"ypos"				"9"
+		"zpos"				"1"
+		"wide"				"280"
+		"tall"				"14"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%targetdata%"
+		"textAlignment"		"Left"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"255 255 255 169"
+	}
+
+	"SpectatorGUIHealth"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SpectatorGUIHealth"
+		"xpos"				"4"
+		"ypos"				"0"
+		"wide"				"32"
+		"tall"				"132"
+		"visible"			"1"
+		"enabled"			"1"	
+		"HealthBonusPosAdj"	"10"
+		"HealthDeathWarning"	"0.49"
+		"TFFont"			"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"TextColor"			"HudOffWhite"
+	}
+}

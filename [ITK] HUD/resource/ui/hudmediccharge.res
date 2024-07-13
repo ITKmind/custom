@@ -1,0 +1,1 @@
+#base "../../customization/medic.res"

@@ -1,0 +1,3 @@
+these are darker than the ones installed. Use these if you want the transparent bits a little darker.
+
+To install these just replace the vtfs in the crosshairs folder

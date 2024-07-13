@@ -1,0 +1,1 @@
+type rijin_setcvar sv_skyname sky_Disaster into console
