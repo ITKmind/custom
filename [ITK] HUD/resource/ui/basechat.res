@@ -4,15 +4,15 @@
 {
 	"HudChat"
 	{
-		"ControlName" "EditablePanel"
-		"fieldName" "HudChat"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "2"
-		"ypos" "150"
-		"wide" "210"
-		"tall" "120"
-		"PaintBackgroundType" "2"
+		"ControlName"		      "EditablePanel"
+		"fieldName" 		      "HudChat"
+		"visible" 		          "1"
+		"enabled" 		          "1"
+		"xpos"                    "2"
+		"ypos"                    "150"
+		"wide"	 		          "226"
+		"tall"	 		          "96"
+		"PaintBackgroundType"	  "2"
 	}
 
 	ChatInputLine
